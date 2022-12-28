@@ -11,6 +11,10 @@
    box-sizing: border-box;
 }
 
+body {
+   overflow-x: hidden;
+}
+
 /* typography */
 .text-display {
    font-style: normal;
@@ -20,7 +24,7 @@
    letter-spacing: 0.02em;
 }
 
-h1 {
+.text-heading-1 {
    font-style: normal;
    font-weight: 600;
    font-size: 36px;
@@ -28,7 +32,15 @@ h1 {
    letter-spacing: 0.01em;
 }
 
-h2 {
+.text-sub-heading-1 {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 32px;
+   letter-spacing: 0.01em;
+}
+
+.text-heading-2 {
    font-style: normal;
    font-weight: 600;
    font-size: 28px;
@@ -36,7 +48,7 @@ h2 {
    letter-spacing: 0.01em;
 }
 
-h3 {
+.text-heading-3 {
    font-style: normal;
    font-weight: 600;
    font-size: 24px;

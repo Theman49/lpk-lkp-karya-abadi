@@ -9,7 +9,7 @@
     @livewireStyles
     @yield('head')
 </head>
-<body>
+<body class="bg-body">
     <!-- include navbar here -->
 
     @yield('content')

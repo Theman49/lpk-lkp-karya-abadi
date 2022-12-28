@@ -15,3 +15,4 @@ use App\Http\Controllers\PageController;
 */
 
 Route::get('/', [PageController::class, 'home']);
+Route::get('/style-guide', [PageController::class, 'styleGuide']);

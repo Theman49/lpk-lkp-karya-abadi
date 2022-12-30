@@ -15,4 +15,7 @@ use App\Http\Controllers\PageController;
 */
 
 Route::get('/', [PageController::class, 'home']);
+Route::get('/about-us', [PageController::class, 'aboutUs']);
+Route::get('/galery', [PageController::class, 'galery']);
+Route::get('/program', [PageController::class, 'program']);
 Route::get('/style-guide', [PageController::class, 'styleGuide']);

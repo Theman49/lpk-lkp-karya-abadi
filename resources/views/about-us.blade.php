@@ -3,6 +3,10 @@
 ?>
 @extends('../layouts/main')
 
+@section('title')
+    Tentang Kami
+@endsection
+
 @section('head')
     <style>
         #visi-misi {

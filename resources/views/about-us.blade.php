@@ -58,12 +58,22 @@
                 <p class="text-body-1 font-regular">Temui orang-orang hebat LKP Karya Abadi yang akan selalu menjadikan Anda prioritas No.1</p>
             </div>
             <div class="flex flex-col gap-6">
-                <div class="flex">
-                    <div class="bg-white rounded-l-[10px] text-white w-fit">
-                        <p class="bg-secondary p-[10px] rounded-[10px] text-body-2 font-medium">Tim Hebat Kami</p>
+                <div class="flex justify-between items-center">
+                    <div class="flex">
+                        <div class="bg-white rounded-l-[10px] text-white w-fit h-full">
+                            <p class="bg-secondary p-[10px] rounded-[10px] text-body-2 font-medium">Tim Hebat Kami</p>
+                        </div>
+                        <div class="bg-white p-[10px] rounded-r-[10px] text-primary w-fit">
+                            <p class="text-body-2 font-regular text-primary">Pengajar Pilihan</p>
+                        </div>
                     </div>
-                    <div class="bg-white p-[10px] rounded-r-[10px] text-primary w-fit">
-                        <p class="text-body-2 font-regular text-primary">Pengajar Pilihan</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="flex items-center rounded-lg p-[10px] bg-white text-primary">
+                            <i class="material-icons">chevron_left</i>
+                        </a>
+                        <a href="#" class="flex items-center rounded-lg p-[10px] bg-white text-primary">
+                            <i class="material-icons">chevron_right</i>
+                        </a>
                     </div>
                 </div>
                 <div class="flex gap-9 justify-between">
